@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: url("../white-waves/white-waves.png");
 }
 
 * {
@@ -214,4 +214,32 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+@media screen and (max-width: 980px){
+    body{
+        width: 100%;
+    }
+    .main-container{
+        width: 75%;
+    }
+    /* .main-section{
+        width: 75%;
+    } */
+    
+}
+
+@media screen (max-width: 768px){
+    body{ 
+        width: 100%;
+    }
+}
+
+@media screen (max-width: 640px){
+    body{
+        width: 100%;
+    }
+    header{
+        position: static;
+    }
 }
