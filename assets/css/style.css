@@ -217,21 +217,22 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px){
+    .container,
+    .main-section{
+        width: 75%;
+        max-width: 720px;
+    }
     body{
-        width: 100%;
+        background: #4aaaa5;
     }
-    .main-container{
-        width: 75%;
-    }
-    /* .main-section{
-        width: 75%;
-    } */
-    
 }
 
-@media screen (max-width: 768px){
+/* @media screen (max-width: 768px){
     body{ 
         width: 100%;
+    }
+    .main-section{
+        width: 360px;
     }
 }
 
@@ -242,4 +243,4 @@ input[type=submit] {
     header{
         position: static;
     }
-}
+}  */
